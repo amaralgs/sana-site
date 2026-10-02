@@ -3,81 +3,118 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sana – Picture Frame for iPad</title>
-<meta name="description" content="Sana turns an old iPad into a digital picture frame that shows the albums you choose.">
+<title>Sana – Turn your old iPad into a digital picture frame</title>
+<meta name="description" content="Sana turns an old iPad into a beautiful digital picture frame. Show the albums you choose, with night mode and full privacy. Available in 9 languages.">
+<link rel="canonical" href="https://sana.werker.com.br/">
+<link rel="alternate" hreflang="en" href="https://sana.werker.com.br/">
+<link rel="alternate" hreflang="pt-BR" href="https://sana.werker.com.br/pt/">
+<link rel="alternate" hreflang="x-default" href="https://sana.werker.com.br/">
 <link rel="icon" href="icon.png">
-<style>
-  :root { color-scheme: light dark; --accent: #c15f38; }
-  body { font: 18px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
-  header { text-align: center; }
-  header img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 6px 24px rgba(0,0,0,.25); }
-  h1 { font-size: 2.2rem; margin: .6em 0 .1em; }
-  .tag { color: gray; margin: 0 0 1.5em; }
-  h2 { font-size: 1.15rem; margin-top: 2em; }
-  ul { padding-left: 1.2em; }
-  li { margin: .35em 0; }
-  nav a, footer a { color: var(--accent); margin-right: 1em; }
-  nav { margin-bottom: 1.5em; text-align: right; }
-  hr { margin: 3em 0; border: 0; border-top: 1px solid gray; opacity: .4; }
-  footer { color: gray; font-size: .9rem; text-align: center; }
-</style>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sana – Turn your old iPad into a digital picture frame">
+<meta property="og:description" content="Give your old iPad a second life. Shows the albums you choose, with night mode and full privacy.">
+<meta property="og:url" content="https://sana.werker.com.br/">
+<meta property="og:image" content="https://sana.werker.com.br/icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Sana","alternateName":"Sana – Picture Frame","applicationCategory":"PhotographyApplication","operatingSystem":"iPadOS","description":"Sana turns an old iPad into a digital picture frame that shows the albums you choose, with night mode and full privacy.","inLanguage":["en","pt-BR","es","fr","de","it","ja","zh-Hans","ko"],"url":"https://sana.werker.com.br/","author":{"@type":"Person","name":"Gilberto Amaral"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
 </head>
 <body>
 
-<nav><a href="#en">English</a><a href="#pt">Português</a><a href="privacy.html">Privacy</a></nav>
+<header class="topbar"><div class="in">
+  <a class="brand" href="./"><img src="icon.png" alt="" width="26" height="26">Sana</a>
+  <nav aria-label="Main">
+    <a class="hide-sm" href="#features">Features</a>
+    <a class="hide-sm" href="#frame">The frame</a>
+    <a href="#get">Get the app</a>
+    <a class="lang" href="pt/" hreflang="pt-BR" lang="pt-BR">PT</a>
+  </nav>
+</div></header>
 
-<section id="en">
-<header>
-  <img src="icon.png" alt="Sana app icon">
-  <h1>Sana</h1>
-  <p class="tag">Give your old iPad a second life as a digital picture frame.</p>
-</header>
-
-<h2>What it does</h2>
-<ul>
-  <li>Shows full-screen photos and videos from the albums you pick, shuffled or in order.</li>
-  <li>Choose how long each photo stays on screen.</li>
-  <li>Night mode: the screen goes black with minimum brightness during the hours you set.</li>
-  <li>Optionally shows the date and place of each photo.</li>
-  <li>Double-tap the screen to open settings.</li>
-  <li>Available in English, Português, Español, Français, Deutsch, Italiano, 日本語, 简体中文 and 한국어.</li>
-</ul>
-
-<h2>Your photos stay yours</h2>
-<p>Sana runs on your device. The developer has no server, no accounts and no access to your photos. Read the <a href="privacy.html">privacy policy</a>.</p>
-
-<h2>Availability</h2>
-<p>Sana is in testing and is not on the App Store yet.</p>
+<main>
+<section class="scene" id="scene" aria-label="From old iPad to picture frame">
+  <div class="sticky">
+    <h1 class="lines"><span class="a">Your old iPad.</span><span class="b">Now a <em>picture frame.</em></span></h1>
+    <div class="stage" role="img" aria-label="An iPad showing a slideshow, inside a wooden picture frame">
+      <div class="frame"></div>
+      <div class="mat"></div>
+      <div class="ipad"><div class="screen">
+        <img class="slide" src="assets/slide-1.svg" alt="">
+        <img class="slide" src="assets/slide-2.svg" alt="">
+        <img class="slide" src="assets/slide-3.svg" alt="">
+      </div></div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">Scroll</div>
+  </div>
 </section>
 
-<hr>
-
-<section id="pt" lang="pt-BR">
-<header>
-  <img src="icon.png" alt="Ícone do app Sana">
-  <h1>Sana</h1>
-  <p class="tag">Dê ao seu iPad antigo uma segunda vida como porta-retrato digital.</p>
-</header>
-
-<h2>O que faz</h2>
-<ul>
-  <li>Mostra em tela cheia fotos e vídeos dos álbuns que você escolher, embaralhados ou em ordem.</li>
-  <li>Você define quanto tempo cada foto fica na tela.</li>
-  <li>Modo noturno: a tela fica preta com brilho mínimo nos horários que você definir.</li>
-  <li>Opcionalmente mostra a data e o local de cada foto.</li>
-  <li>Toque duplo na tela para abrir as configurações.</li>
-  <li>Disponível em English, Português, Español, Français, Deutsch, Italiano, 日本語, 简体中文 e 한국어.</li>
-</ul>
-
-<h2>Suas fotos continuam suas</h2>
-<p>O Sana funciona no seu aparelho. O desenvolvedor não tem servidor, contas nem acesso às suas fotos. Leia a <a href="privacy.html#pt">política de privacidade</a>.</p>
-
-<h2>Disponibilidade</h2>
-<p>O Sana está em fase de testes e ainda não está na App Store.</p>
+<section class="block" id="features">
+  <div class="wrap">
+    <p class="eyebrow">Features</p>
+    <h2>Your memories, quietly on display.</h2>
+    <p class="lead">Sana does one thing and does it well: it shows the photos and videos you choose, all day, without fuss.</p>
+    <div class="grid">
+      <div class="card"><span class="ico" aria-hidden="true">🖼️</span><h3>Your albums only</h3><p>Pick one or more albums. New photos you add to them show up on their own.</p></div>
+      <div class="card"><span class="ico" aria-hidden="true">🎞️</span><h3>Photos and videos</h3><p>Full screen, never cropped. Videos play silently on loop.</p></div>
+      <div class="card"><span class="ico" aria-hidden="true">🌙</span><h3>Night mode</h3><p>At the hours you set, the screen goes black with minimum brightness.</p></div>
+      <div class="card"><span class="ico" aria-hidden="true">📍</span><h3>Date and place</h3><p>Optionally show when and where each photo was taken, discreetly in the corner.</p></div>
+      <div class="card"><span class="ico" aria-hidden="true">🔀</span><h3>Real shuffle</h3><p>Every photo appears once before any repeats, so nothing gets forgotten.</p></div>
+      <div class="card"><span class="ico" aria-hidden="true">🌍</span><h3>9 languages</h3><p>English, Português, Español, Français, Deutsch, Italiano, 日本語, 简体中文, 한국어.</p></div>
+    </div>
+  </div>
 </section>
 
-<hr>
-<footer>© 2026 Gilberto Amaral</footer>
+<section class="block alt">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2>Three steps. Then forget about it.</h2>
+    <p class="lead">No account, no cloud, no setup wizard.</p>
+    <div class="steps">
+      <div class="step"><h3>Pick your albums</h3><p>Choose what the frame should show.</p></div>
+      <div class="step"><h3>Set the pace</h3><p>How long each photo stays, and when the night begins.</p></div>
+      <div class="step"><h3>Put it on the shelf</h3><p>Plug it in. Double-tap the screen any time to change settings.</p></div>
+    </div>
+  </div>
+</section>
 
+<section class="block" id="frame">
+  <div class="wrap split">
+    <div class="woodcard" role="img" aria-label="A wooden picture frame holding a tablet"></div>
+    <div>
+      <p class="eyebrow">The frame</p>
+      <h2>Make it a real picture frame.</h2>
+      <p class="lead" style="margin-bottom:24px">A wooden frame turns the iPad into something that belongs on any wall or shelf.</p>
+      <!-- Replace href="#frame" and remove the "soon" class when the AliExpress affiliate link is ready -->
+      <a class="btn soon" href="#frame" aria-disabled="true">Frame link coming soon</a>
+      <p class="small" style="margin-top:14px">Affiliate disclosure: when the link is available, buying through it may earn the developer a small commission at no extra cost to you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block alt cta" id="get">
+  <div class="wrap">
+    <p class="eyebrow">Get Sana</p>
+    <h2>Free for iPad.</h2>
+    <p class="lead" style="margin-left:auto;margin-right:auto">The free version shows an occasional discreet ad during the day, never at night.</p>
+    <div class="row">
+      <!-- Replace with the App Store link when published -->
+      <a class="btn soon" href="#get" aria-disabled="true">Coming soon to the App Store</a>
+    </div>
+    <p class="small" style="margin-top:18px">Sana runs on your device. The developer has no access to your photos. <a href="privacy.html">Privacy policy</a></p>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <span class="grow">© 2026 Gilberto Amaral</span>
+  <a href="about.html">About</a>
+  <a href="privacy.html">Privacy</a>
+  <a href="mailto:contato@amaral.pro">Contact</a>
+  <a href="pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
+</div></footer>
+
+<script src="assets/scene.js" defer></script>
 </body>
 </html>
